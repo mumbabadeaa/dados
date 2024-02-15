@@ -1,0 +1,20 @@
+Package: fahclient
+Version: 7.6.21
+Maintainer: Joseph Coffland <joseph@cauldrondevelopment.com>
+Priority: optional
+Section: science
+Bugs: https://apps.foldingathome.org/bugs
+Homepage: https://foldingathome.org/
+Depends: debconf | debconf-2.0
+Pre-Depends: adduser
+Recommends: fahviewer (=7.6.21), fahcontrol (=7.6.21)
+Architecture: amd64
+Installed-Size: 9033
+Description: Folding@home Console Client
+ Folding@home is a distributed computing project using volunteered
+ computer resources.
+ .
+ This package contains the console client which is used to download
+ and run Folding@home work units.  To monitor and control the console
+ client it is best to use either Web Control via your browser, or the
+ Graphical User Interface called FAHControl, provided in a separate package.
